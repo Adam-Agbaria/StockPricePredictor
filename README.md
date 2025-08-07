@@ -40,7 +40,7 @@ python main.py test
 python main.py analyze
 ```
 
-## 📋 Module Details
+## Module Details
 
 ### `config.py`
 **Central configuration management**
@@ -118,44 +118,44 @@ TRAINING_CONFIG['epochs'] = 100
 TRAINING_CONFIG['batch_size'] = 32
 ```
 
-## 📊 Features
+## Features
 
 ### Data Processing
-- ✅ Automatic CSV parsing with datetime indexing
-- ✅ Technical indicator generation (moving averages, ranges)
-- ✅ Robust data cleaning and validation
-- ✅ Configurable sequence generation for LSTM input
-- ✅ MinMaxScaler for features and targets
+- Automatic CSV parsing with datetime indexing
+- Technical indicator generation (moving averages, ranges)
+- Robust data cleaning and validation
+- Configurable sequence generation for LSTM input
+- MinMaxScaler for features and targets
 
 ### Model Architecture
-- ✅ Simple LSTM architecture (default)
-- ✅ Advanced LSTM with regularization (optional)
-- ✅ Custom directional loss functions
-- ✅ GPU acceleration support
-- ✅ Model factory pattern for flexibility
+- Simple LSTM architecture (default)
+- Advanced LSTM with regularization (optional)
+- Custom directional loss functions
+- GPU acceleration support
+- Model factory pattern for flexibility
 
 ### Training
-- ✅ Progress tracking with custom callbacks
-- ✅ Early stopping and learning rate reduction
-- ✅ Comprehensive training summaries
-- ✅ Model checkpointing with timestamps
-- ✅ Configurable training parameters
+- Progress tracking with custom callbacks
+- Early stopping and learning rate reduction
+- Comprehensive training summaries
+- Model checkpointing with timestamps
+- Configurable training parameters
 
 ### Evaluation
-- ✅ Comprehensive metrics (MAPE, correlation, hit rates)
-- ✅ Directional accuracy analysis
-- ✅ Prediction bias assessment
-- ✅ Automated visualization generation
-- ✅ Detailed evaluation reports
-- ✅ Performance categorization (Exceptional/Good/Moderate/Poor)
+- Comprehensive metrics (MAPE, correlation, hit rates)
+- Directional accuracy analysis
+- Prediction bias assessment
+- Automated visualization generation
+- Detailed evaluation reports
+- Performance categorization (Exceptional/Good/Moderate/Poor)
 
 ### Utilities
-- ✅ Prediction horizon optimization
-- ✅ Data quality validation
-- ✅ System information display
-- ✅ Statistical analysis tools
+- Prediction horizon optimization
+- Data quality validation
+- System information display
+- Statistical analysis tools
 
-## 📈 Output Files
+## Output Files
 
 The system generates timestamped outputs:
 
@@ -163,14 +163,11 @@ The system generates timestamped outputs:
 model_checkpoints/
 ├── simple_price_predictor_1steps_20231201_143022.h5
 
-visualizations_1m/
-├── price_prediction_20231201_143022.png
-
 evaluation_1m/
 ├── evaluation_report_20231201_143022.txt
 ```
 
-## 🔧 Advanced Usage
+## Advanced Usage
 
 ### Custom Model Architecture
 ```python
