@@ -2,6 +2,7 @@
 .gitignore
 stock_predictor.py
 data/
+tf-clean/
 
 # Model files and training outputs
 *.h5
@@ -85,6 +86,7 @@ ENV/
 env.bak/
 venv.bak/
 stock_predictor_env/
+visualizations_1m/
 
 # IDEs and editors
 .vscode/
@@ -196,7 +198,5 @@ model_checkpoints_1m/*20250802*
 *20250802*.jpg
 *20250802*.jpeg
 *20250802*.svg
-visualizations_1m/*202507*
-visualizations_1m/*20250802*
-visualizations_1m/*20250807*
+
 price_prediction_20250802*.png 
