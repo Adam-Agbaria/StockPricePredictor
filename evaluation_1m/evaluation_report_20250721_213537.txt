@@ -1,0 +1,71 @@
+============================================================
+STOCK PRICE PREDICTION - EVALUATION REPORT
+============================================================
+
+Generated: 2025-07-21 21:35:37
+Model Type: Simple LSTM Price Predictor
+
+MODEL CONFIGURATION:
+------------------------------
+LSTM Units: 64
+Learning Rate: 0.0005
+Epochs Trained: 60
+Batch Size: 64
+
+DATA CONFIGURATION:
+------------------------------
+Prediction Steps: 5 steps ahead
+Sequence Length: 20 time steps
+Test Ratio: 20.0%
+Features: close, high, low, open, volume
+
+BASIC PERFORMANCE METRICS:
+----------------------------------------
+Mean Squared Error (MSE):      253.7201
+Root Mean Squared Error (RMSE): 15.9286
+Mean Absolute Error (MAE):     9.0951
+Mean Absolute Percentage Error (MAPE): 0.06%
+Correlation Coefficient:       1.0000
+R-squared:                     1.0000
+
+
+STATISTICAL DIRECTIONAL ACCURACY METRICS:
+----------------------------------------
+Overall Statistical Accuracy:  99.91%
+Above Mean Accuracy:           99.91% (512410/512869)
+Below Mean Accuracy:           99.92% (665799/666353)
+
+HIT RATE ANALYSIS:
+----------------------------------------
+Predictions within 1%:         99.95%
+Predictions within 2%:         99.99%
+Predictions within 5%:         100.00%
+
+ERROR DISTRIBUTION STATISTICS:
+----------------------------------------
+Maximum Error:                 931.9805
+Minimum Error:                 0.0000
+Standard Deviation of Errors:  15.9267
+Median Absolute Error:         5.2021
+95th Percentile Error:         30.5361
+Mean Percentage Error (bias):  -0.00%
+
+PREDICTION BIAS ANALYSIS:
+----------------------------------------
+Prediction Bias (absolute):    -0.2488
+Prediction Bias (percentage):  -0.00%
+Bias Assessment:               ✅ Low bias - predictions well centered
+
+COMPREHENSIVE PERFORMANCE ASSESSMENT:
+--------------------------------------------------
+📊 MAPE Assessment:            ✅ EXCEPTIONAL (< 1%) - Extremely accurate
+🔗 Correlation Assessment:     ✅ EXCEPTIONAL (> 0.9) - Very strong relationship
+🎪 Hit Rate Assessment:        ✅ EXCELLENT - High precision predictions
+
+
+
+🏆 EXCEPTIONAL MODEL - Ready for production use
+
+
+
+============================================================

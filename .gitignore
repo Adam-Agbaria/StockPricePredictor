@@ -1,0 +1,199 @@
+# Project-specific exclusions
+stock_predictor.py
+data/
+
+# Model files and training outputs
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.weights
+
+# Exception: Allow specific model file to be tracked
+!*price_predictor_5steps_20250721*
+
+# Data files
+*.csv
+*.json
+*.xlsx
+*.xls
+*.parquet
+*.feather
+
+# Logs and debugging
+*.log
+logs/
+tensorboard_logs/
+mlruns/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+stock_predictor_env/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# Custom exclusions for this project
+scaling_diagnosis.png
+diagnose_scaling.py
+
+# Specific evaluation files from August
+evaluation_report_*08*.txt
+*08*evaluation*
+evaluation_*08*
+*202308*
+evaluation_1m/*08*
+evaluations_1m/*08*
+
+# Specific model checkpoint files from 20250802
+*20250802*.h5
+*20250802*.hdf5
+*20250802*.model
+model_checkpoints/*20250802*
+model_checkpoints_1m/*20250802*
+
+# Specific visualization files from 20250802
+*20250802*.png
+*20250802*.jpg
+*20250802*.jpeg
+*20250802*.svg
+visualizations_1m/*20250802*
+price_prediction_20250802*.png 
